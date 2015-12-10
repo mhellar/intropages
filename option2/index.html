@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Matters in Media Art</title>
+
+    <!-- Bootstrap Core CSS -->
+<!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Custom CSS -->
+    <link href="css/full.css" rel="stylesheet">
+<!--     <link href="css/font.css" rel="stylesheet"> -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/vid.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#title").hide(0).delay(500).fadeIn(3000)
+    $("#fade2").hide(0).delay(1000).fadeIn(3000)
+    $("#fade3").hide(0).delay(1000).fadeIn(15000)
+});
+</script>
+<div id="kont">
+  <video autoplay muted loop>
+    <source src="http://beta.mattgrossdesign.com/sites/default/files/wood%20autumn-HD.mp4" type="video/mp4">
+
+  </video>
+  <div id="ent">
+    <div id="diagonal"></div>
+    <div id="content">
+      <h1 id="title">Matters in Media Art</h1>
+        <p id="fade2">
+          Since its launch in 2005, this collaborative project of the New Art Trust (NAT) and its partner museums—the Museum of Modern Art, the San Francisco Museum of Modern Art and Tate—has been designed to help those who collect and keep time-based artworks (e.g., video, film, audio and software-based installations). Conceived originally as a consensus building project for the three partner museums of the NAT, the enduring goal has been to affirm our commitment to time-based art and artists by developing shared practices for the works’ care and preservation.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
