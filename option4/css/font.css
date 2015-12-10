@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Overlock:400italic|Playfair+Display|Sorts+Mill+Goudy:400italic|Niconne|Petit+Formal+Script|IM+Fell+French+Canon:400italic|Ovo|Libre+Baskerville:400italic|Alegreya+SC|Alice|Cardo:400italic|Crimson+Text:400italic|Goudy+Bookletter+1911|Linden+Hill:400,400italic|Radley:400italic|Rochester|Volkhov:400italic&text=%26);
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 50%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+
+}
+
+.group::after, .gallery::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.gallery {
+  margin-bottom: 1.5rem;
+}
+
+.cell {
+  float: left;
+  text-align: center;
+  padding: 0 0.75rem;
+  width: 25%;
+}
+.cell:nth-of-type(4n+1) {
+  clear: left;
+}
+
+.amp {
+  font-size: 3em;
+}
+
+.amp--alegreya {
+  font-family: "Alegreya SC";
+  font-style: normal;
+}
+
+.amp--alice {
+  font-family: "Alice";
+  font-style: normal;
+}
+
+.amp--cardo {
+  font-family: "Cardo";
+  font-style: italic;
+}
+
+.amp--crimson {
+  font-family: "Crimson Text";
+  font-style: italic;
+}
+
+.amp--goudy--bookletter {
+  font-family: "Goudy Bookletter 1911";
+  font-style: normal;
+}
+
+.amp--french {
+  font-family: "IM Fell French Canon";
+  font-style: italic;
+}
+
+.amp--baskerville--libre {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+}
+
+.amp--linden {
+  font-family: "Linden Hill";
+  font-style: normal;
+}
+
+.amp--linden--i {
+  font-family: "Linden Hill";
+  font-style: italic;
+}
+
+.amp--niconne {
+  font-family: "Niconne";
+  font-style: normal;
+}
+
+.amp--overlock {
+  font-family: "Overlock";
+  font-style: italic;
+}
+
+.amp--ovo {
+  font-family: "Ovo";
+  font-style: normal;
+}
+
+.amp--petit {
+  font-family: "Petit Formal Script";
+  font-style: normal;
+}
+
+.amp--playfair {
+  font-family: "Playfair Display";
+  font-style: normal;
+}
+
+.amp--radley {
+  font-family: "Radley";
+  font-style: italic;
+}
+
+.amp--rochester {
+  font-family: "Rochester";
+  font-style: normal;
+}
+
+.amp--goudy--sorts {
+  font-family: "Sorts Mill Goudy";
+  font-style: normal;
+}
+
+.amp--goudy--sorts--i {
+  font-family: "Sorts Mill Goudy";
+  font-style: italic;
+}
+
+.amp--volkhov {
+  font-family: "Volkhov";
+  font-style: italic;
+}
+
+.amp--andale {
+  font-family: "andale mono";
+  font-style: normal;
+}
+
+.amp--athelas {
+  font-family: "athelas";
+  font-style: italic;
+}
+
+.amp--baskerville {
+  font-family: "baskerville";
+  font-style: italic;
+}
+
+.amp--chancery {
+  font-family: "apple chancery";
+  font-style: italic;
+}
+
+.amp--cochin {
+  font-family: "cochin";
+  font-style: italic;
+}
+
+.amp--didot {
+  font-family: "didot";
+  font-style: italic;
+}
+
+.amp--herculanum {
+  font-family: "herculanum";
+  font-style: normal;
+}
+
+.amp--hoefler {
+  font-family: "hoefler text";
+  font-style: italic;
+}
+
+.amp--palatino {
+  font-family: "palatino", "palatino linotype";
+  font-style: italic;
+}
+
+.amp--plantagenet {
+  font-family: "plantagenet cherokee";
+  font-style: normal;
+}
+
+.amp--symbol {
+  font-family: "symbol";
+  font-style: normal;
+}
+
+.amp--zapfino {
+  font-family: "zapfino";
+}

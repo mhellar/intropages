@@ -39,21 +39,23 @@ $(document).ready(function(){
     $("#fade3").hide(0).delay(1000).fadeIn(15000)
 });
 </script>
-<div id="kont">
-  <video autoplay muted loop>
-    <source src="http://beta.mattgrossdesign.com/sites/default/files/wood%20autumn-HD.mp4" type="video/mp4">
+<span class="amp amp--andale">
 
+<div id="video-container">
+  <video preload="auto" autoplay loop muted width="1440" height="810">
+    <source src="http://beta.mattgrossdesign.com/sites/default/files/wood%20autumn-HD.mp4" type="video/mp4">
+      
   </video>
-  <div id="ent">
-    <div id="diagonal"></div>
-    <div id="content">
-      <h1 id="title">Matters in Media Art</h1>
-        <p id="fade2">
-          Since its launch in 2005, this collaborative project of the New Art Trust (NAT) and its partner museums—the Museum of Modern Art, the San Francisco Museum of Modern Art and Tate—has been designed to help those who collect and keep time-based artworks (e.g., video, film, audio and software-based installations). Conceived originally as a consensus building project for the three partner museums of the NAT, the enduring goal has been to affirm our commitment to time-based art and artists by developing shared practices for the works’ care and preservation.</p><p><!-- <h1 id="fade3">Begin</h1> --></p>
-    </div>
+</div>
+<div class="overlay">
+  <div class="overlay__inner" id="title">
+    <h2>Matters In Media Art</h2>
+    <p>
+      Since its launch in 2005, this collaborative project of the New Art Trust (NAT) and its partner museums—the Museum of Modern Art, the San Francisco Museum of Modern Art and Tate—has been designed to help those who collect and keep time-based artworks (e.g., video, film, audio and software-based installations). Conceived originally as a consensus building project for the three partner museums of the NAT, the enduring goal has been to affirm our commitment to time-based art and artists by developing shared practices for the works’ care and preservation. 
+    </p>
+    <a id="fade3" href="http://yahoo.com" class="btn" target="_blank">Begin</a>
   </div>
 </div>
-
 </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
