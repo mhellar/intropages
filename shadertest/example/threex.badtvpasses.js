@@ -211,11 +211,11 @@ THREEx.BadTVPasses.Params	= function(){
 			// staticNoise.amount	= Math.random()*0.2;
 		},
 		'strong'	: function(){
-			badTV.distortion	= Math.random()*3+9;
-			badTV.distortion2	= Math.random()*6+0.01;
+			badTV.distortion	= Math.random()*3+3;
+			badTV.distortion2	= Math.random()*2+0.01;
 			badTV.speed		= Math.random()*0.000002;
-			badTV.rollSpeed		= Math.random()*.02;
-			rgb.angle		= Math.random()*9;
+			badTV.rollSpeed		= Math.random()*.2;
+			rgb.angle		= Math.random()*2;
 			rgb.amount		= Math.random()*0.3;
 			staticNoise.amount	= Math.random()*0.2;			
 		},
