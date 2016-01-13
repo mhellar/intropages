@@ -37,7 +37,7 @@ video {
   transition: 1s opacity;
 }
 .stopfade { 
-   opacity: .5;
+   opacity: 1;
 }
 
 #polina { 
