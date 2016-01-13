@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <script src='vendor/three.js/build/three.min.js'></script>
-<!-- <script src='vendor/require.js/require.js'></script> -->
+<script src='vendor/require.js/require.js'></script>
 <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -27,7 +27,9 @@
 
 
 <script>
-function(){
+
+require([ '../package.require.js'
+	], function(){
 	var renderer	= new THREE.WebGLRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	document.body.appendChild( renderer.domElement );
