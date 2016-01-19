@@ -19,8 +19,8 @@
             <area shape="circle" id="4" coords="243, 69, 47" />
             <area shape="circle" id="5" coords="64, 111, 49" />
         </map>
-        <div class="col s4" >
-            <p id="caption" class="z-depth-1"></p>
+        <div class="col s4">
+            <p id="caption"></p>
         </div>
     </div>
     <script>
@@ -28,7 +28,8 @@
         $('img[usemap]').rwdImageMaps();
     });
     $("#1").mouseover(function() {
-        $("#caption").html("<b>Assemble expertise</b><br><br>In order to proceed, the curator/collector will need to gather more detailed information relying on the expertise of a larger group of people.Large institutions may assemble a team comprising some or all of the following expertise: curatorial, conservation, registration exhibitions, technical/media/audio-visual, IT, legal/intellectual property.Collectors and small institutions may find knowledgeable technical support: contact a museum conservation department, art gallery, art consultant, and/or artist/studio to recommend sources.").Materialize.toast('I am a toast!', 4000);
+        Materialize.toast('I am a toast!', 4000);
+        $("#caption").html("<b>Assemble expertise</b><br><br>In order to proceed, the curator/collector will need to gather more detailed information relying on the expertise of a larger group of people.Large institutions may assemble a team comprising some or all of the following expertise: curatorial, conservation, registration exhibitions, technical/media/audio-visual, IT, legal/intellectual property.Collectors and small institutions may find knowledgeable technical support: contact a museum conservation department, art gallery, art consultant, and/or artist/studio to recommend sources.")
     });
     $("#2").mouseover(function() {
         $("#caption").html("<b>Get the details – Identify areas for further inquiry and pursue detailed information</b><br><br>Once team/resources are established, curator/collector presents the proposed acquisition. The following information may be gathered both internally and externally. Identify one person to be the co-ordinator for this process. In some circumstances, cataloguing the work may begin prior to acquisition (see details in post-acqusition phase).Before proceeding with the acquisition, consider the key questions at the head of each section below. These are indicated by solid bullets.<li>Equipment</li><li>Costs</li><li>Installation Specifications</li><li>Preacquistion Assesment</li>");
