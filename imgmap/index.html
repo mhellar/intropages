@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+</head>
+
+<body>
+	<div class="row">
+    <div class="col s6"><img src="pre-acq.png" alt="" usemap="#map" /></div>
+    <map name="map">
+        <area shape="circle" id="1" coords="341, 210, 45" />
+        <area shape="circle" id="2" coords="235, 319, 47" />
+        <area shape="circle" id="3" coords="76, 272, 47" />
+        <area shape="circle" id="4" coords="243, 69, 47" />
+        <area shape="circle" id="5" coords="64, 111, 49" />
+    </map>
+    <div class="col s6"><p id="caption"></p></div>
+    </div>
+    <script>
+    $("#1").mouseover(function() {
+        $("#caption").text("Assemble Expertise");
+    });
+    $("#2").mouseover(function() {
+        $("#caption").text("Get the details");
+    });
+    $("#3").mouseover(function() {
+        $("#caption").text("Proceed with Acquisition");
+    });
+    $("#4").mouseover(function() {
+        $("#caption").text("Explore Deeper");
+    });
+    $("#5").mouseover(function() {
+        $("#caption").text("What is it?");
+    });
+    </script>
+</body>
+
+</html>
